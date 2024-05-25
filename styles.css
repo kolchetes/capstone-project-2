@@ -17,14 +17,13 @@
 	.skills-list {
 		width: 80% !important;
 	}
-	
-	.skills-list li img {
-	margin-left: -10% !important;
-	min-width: 100px;
-}
 
 	#contact-me-button {
 		margin-top: 50px;
+	}
+	
+	.skills-list li img {
+		display: none;
 	}
 }
 
