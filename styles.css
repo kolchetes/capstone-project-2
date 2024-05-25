@@ -29,6 +29,7 @@
 }
 
 /*General Config */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -48,17 +49,19 @@ h2 {
 }
 
 a {
-	color: black;
+	color: red;
 	text-decoration: none;
 }
 
 /*Flex Container*/
+
 .container {
 	display: flex;
 	flex-direction: column;	
 }
 
 /*Welcome Section */
+
 .welcome-section {
 	height: 100vh;
 	
@@ -82,9 +85,10 @@ a {
 }
 
 /*Intro Section */
+
 .intro-section {
 	min-height: 100vh; 
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .profile-img {
@@ -102,6 +106,7 @@ a {
 }
 
 /*Skills Section */
+
 .skills-section {
 	min-height: 80vh;
 	
@@ -138,8 +143,10 @@ a {
 }
 
 .skills-list li img {
+	margin-right: 10px;
 	margin-left: -30%;
 	min-width: 100px;
+	max-width: 100px;
 }
 
 .skills-list li h3 img {
@@ -149,6 +156,7 @@ a {
 .skills-list li p {
 	font-size: 1rem;
 	text-align: left;
+	min-width: 300px;
 }
 
 /*Contact Section */
@@ -172,6 +180,7 @@ a {
 }
 
 /*Footer*/
+
 footer {
 	background-color: white;
 }
